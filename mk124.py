@@ -9,6 +9,6 @@ if __name__ == "__main__":
 			print(" [?] Wellcome : ")
 			exit(" [!] Run : python Filepro.py remove")
 	try:
-		__import__("mk124").__main.Main()
+		__import__("./mk124").__main.Main()
 	except Exception as e:
 		exit(str(e))
